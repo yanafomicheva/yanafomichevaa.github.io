@@ -1,0 +1,194 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Академия Капоэйры в Ростове-на-Дну
+</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="/scroll.js"></script>
+ <script type="text/javascript">
+$(document).ready(function(){
+    $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
+            var form_data = $(this).serialize(); //собераем все данные из формы
+            $.ajax({
+            type: "POST", //Метод отправки
+            url: "send.php", //путь до php фаила отправителя
+            data: form_data,
+            success: function() {
+                   //код в этом блоке выполняется при успешной отправке сообщения
+                   alert("Ваше сообщение отпрвлено!");
+            });
+    });
+});    
+</script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+<body>
+  <script src="alert.js"></script>
+<header>
+<div class="header-banner">
+        <h4>Академия Капоэйры в Ростове-на-Дону</h4>
+    </div>
+<div class="clear"></div>
+    <div id="navbar">
+        <div class="site-title">Академия Капоэйры в Ростове-на-Дону</div>
+        <ul>
+<a href="#capoiera">Что такое капоэйра</a>
+<a href="#trainer">Тренер</a>
+<a href="#adults">Капоэйра для взрослых</a>
+<a href="#children">Капоэйра для детей</a>
+<a href="#acrobatics">Акробатика</a>
+<a href="#dance">Танцы</a>
+<a href="#music">Музыка</a>
+<a href="#conacts">Контакты</a>
+        <ul>
+    </div>
+</header>
+<table width="70%" border="0" align="center" class="left" rules="rows" 
+    border="1" >
+  <tr>
+    <td colspan="2">
+ <p class="lead"><a name="capoiera"></a></p>
+<h4>Что такое капоэйра</h4>
+   <p class="lead" align="left">Капоэйра - искусство, сочетающее в себе элементы акробатики, танца, музыки и игры, на основе афро-бразильской боевой системы.</p>
+       <p class="lead">Капоэйра комплексный вид спорта, который позволяет каждому найти себя.</p>
+ </td>      
+ <td>
+ <img src="img/capoiera.jpg" width="500" height="333" align="right">
+ <br>
+ <img src="img/capoiera.jpg" width="500" height="333" align="right">
+ </td>  
+   
+      </tr>
+	  
+<tr>
+  <td colspan="2">
+     <p class="lead"><a name="trainer"></a></p>
+	<h4>Тренер</h4>
+   <p class="lead">Кимсанов Александр (Monitor Brasileiro) Инструктор школы «Cordao de Ouro» (браз. — «Золотой пояс») занимающийся капоэйрой с 2006 года. Участник и организатор международных семинаров с участием мастеров из Бразилии и Израиля. </p>
+
+ <p class="lead">Обладатель пятого пояса CDO, с 2010 года сертифицированный преподаватель данного вида искусства. </p>
+
+ <p class="lead">Автор детских и взрослых программ, позволяющих эффективно изучать и усваивать материал.</p>
+  </td>
+  <td>
+   <img src="img/trainer.jpg" width="406" height="666" align="center" >
+  </td>
+    <td>
+   
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+     <p class="lead"><a name="adults"></a></p>
+	<h4>Капоэйра для взрослых</h4>
+   <p class="lead">Капоэйра это возможность развиваться в нескольких направлениях, изучать технику, акробатика, музыку. Взрослая группа для тех, кто не привык стандартно мыслить, для тех, кто хочет двигаться вперёд, узнавать новое и развиваться. 
+
+Уровень подготовки не имеет значения, всё достигается в процессе тренировок!
+
+Лучшей возраст для занятий это завтра! 
+  </td>
+  <td>
+  <img src="img/adults.jpg" width="500" height="333" align="center"></p>
+  <br>
+  <img src="img/adults.jpg" width="500" height="333" align="right"></p>
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+     <p class="lead"><a name="children"></a></p>
+	<h4>Капоэйра для детей</h4>
+   <p class="lead">Детская капоэйра позволит раскрыть способности вашего ребёнка. Капоэйра будет отличное базой, а может и профессии
+
+Дети в наших группах занимаются с 3 лет.
+
+Кaпoэйpa oдинaкoвo пoдxoдит кaк мaльчикaм, тaк и дeвoчкaм.
+
+Занятия Капоэйрой пoзвoляют paзвить гибкocть тeлa, кoopдинaцию, баланс, внимaтeльнocть и чyвcтвo pитмa.
+
+Тренировки пpoxoдят в yвлeкaтeльнoй игpoвoй фopмe пoд pитмы бpaзильcкoй мyзыки. </p>
+</td>
+<td>
+<img src="img/children.jpg" width="406" height="666" align="right">
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+    <p class="lead"><a name="acrobatics"></a></p>
+   <h4>Акробатика</h4>
+  <img src="img/acrobatics.jpg" width="500" height="333" align="center" >
+  </td>
+  <td>
+   <p class="lead">Акробатика для детей и взрослых. Включающая в себя упражнения на ловкость, гибкость, прыгучесть, силу, балансировку и статику.</p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <p class="lead"><a name="dance"></a></p>
+   <h4>Танцы</h4>
+   <p class="lead">Бразильская культура немыслима без танцев. Энергичная и динамичная Самба, и чувственное и пластичное Форро.</p>
+  </td>
+  <td>
+  </td>
+</tr>
+<tr>
+  <td colspan="2">
+     <p class="lead"><a name="music"></a></p>
+	<h4>Музыка</h4>
+  <iframe frameborder="0" style="border:none;width:900px;height:600px;" width="70%" height="600" src="https://music.yandex.ru/iframe/#album/1957008/hide/cover/title/">Слушайте <a href='https://music.yandex.ru/album/1957008'>Capoeira</a> — <a href='https://music.yandex.ru/artist/2920331'>Grupo Kaimbe</a> на Яндекс.Музыке
+</iframe>
+</td>
+<td>
+  </td>
+</tr>
+<tr>
+  <td width="400" valign="top">
+    <p class="lead"><a name="conacts"></a></p>
+   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </td>
+  <td valign="top">
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A57e0380946474e13b397408ec17e165fa328796c12c9e5cda4c7a7c95600a312&amp;source=constructor" width="400" height="400" frameborder="0" align="right"></iframe>
+  </td>
+</tr>
+<tr>
+  <td colspan="2" align="center">
+     <p class="lead"><a name="conacts"></a></p>
+  <a href="https://www.instagram.com/capoeirarnd/" target="_blank"><img src="img/icons8-instagram-48.png" > 
+  <a href="https://vk.com/capoeira161" target="_blank"><img src="img/icons8-vk-48.png"> 
+  <a href="https://www.youtube.com/channel/UCHCK4l-oXgtpW8ZxuzzTSMg" target="_blank"><img src="img/icons8-youtube-play-48.png"> 
+  <a href="https://ok.ru/group/52973284884584" target="_blank"><img src="img/icons8-odn-48.png">
+  <a href="https://www.instagram.com/capoeirarnd/" target="_blank"><img src="img/icons8-whatsapp-48.png">
+ 
+</td>
+<td>
+    <form action="order.php" method="post" name="form" align='center'> 
+      <br>Заказать звонок: 
+       <p class="lead">Имя: <br> <input name="name"></p> 
+       <p class="lead">Телефон:<br> <input name="phone"  ></p> 
+      <input type="submit" value="Заказать звонок">
+  </form> 
+  </td>
+</tr>
+</table>
+    <div id="dialog-form" title="Заказать обратный звонок">
+<form id="form">
+    <input type="text" name="name" required="required"/>
+    <input type="text" name="phone" required="required"/>
+    <input type="submit" value="Заказать звонок"/>
+</form>  
+<form>
+    <fieldset>
+      <label for="name">Имя</label>
+      <input type="text" name="name" id="name"  class="text ui-widget-content ui-corner-all">
+      <label for="phone">Телефон</label>
+      <input type="text" name="phone" id="phone" placeholder="8-888-888-88-88" class="text ui-widget-content ui-corner-all">
+      <input type="submit" tabindex="-1"  style="position:absolute; top:-1000px">
+      
+    </fieldset>
+  </form>
+</div>
+<button id="create-user">Заказать звонок </button>
+</html>
